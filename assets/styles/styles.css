@@ -1,0 +1,15 @@
+.container{
+    height: 50%;
+    width: 100%;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    background-color: blue;
+    
+}
+.sec-b1{
+    
+    display: grid;
+    grid-template-columns: repeat(2fr);
+    align-items: center;
+}
