@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
 body,
 html {
     height: 100%;
@@ -22,24 +25,63 @@ body {
 
 .card-content {
     width: 100%;
-    background-color: #FF7978;
-    color: white;
+    background-image: url("/assets/img/fondo.jpg");
     padding: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    border-radius: 1rem;
 }
 
+/* texto del lado izquierdo */
+h1{
+    font-size: 2.8em;
+}
 
 .sec-b1 {
 
     display: grid;
     grid-template-columns: repeat(2fr);
     align-items: center;
+    color: white;
 }
-
+/* texto del lado derecho */
 .sec-b2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.sec-n2-form{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+.sec-b2-text{
+    border-radius: 0.5rem;
+    padding: .7rem 9rem .7rem 1.5rem;
+    border: color #6d6a75;
+    display: flex;
+    justify-content: center;
+}
+.sec-b2-button{
+    color: white;
+    background-color: #643a71;
+    border: 0;
+    border-radius: 0.5rem;
+    padding: 1rem 7rem;
+    font-weight: 700;
+    font-size: large;
+}
+.sec-b2-button1{
+    color: white;
+    background-color: #55286f;
+    border-radius: 0.2rem;
+    padding: .8rem 9.3rem .8rem 9.3rem;
+    text-align: center;
+    font-weight: 700;
+    border: 0;
+}
+:active.sec-b2-button1{
+    background-color: #6d6a75;
+
 }
