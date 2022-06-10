@@ -1,15 +1,45 @@
-.container{
-    height: 50%;
-    width: 100%;
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr; 
-    background-color: blue;
-    
+body,
+html {
+    height: 100%;
 }
-.sec-b1{
-    
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card-container {
+    width: 80%;
+    height: 60%;
+}
+
+.card-content {
+    width: 100%;
+    background-color: #FF7978;
+    color: white;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.sec-b1 {
+
     display: grid;
     grid-template-columns: repeat(2fr);
+    align-items: center;
+}
+
+.sec-b2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
