@@ -30,6 +30,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 1rem;
+    background-size: cover;
 }
 
 /* texto del lado izquierdo */
@@ -60,8 +61,12 @@ h1{
     border-radius: 0.5rem;
     padding: .7rem 9rem .7rem 1.5rem;
     border: color #6d6a75;
-    display: flex;
+    display: flex;  
+}
+textarea.sec-b2-text{
     justify-content: center;
+    resize: none;
+    padding: .7rem 5.5rem .7rem 1.5rem;
 }
 .sec-b2-button{
     color: white;
